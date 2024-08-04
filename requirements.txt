@@ -44,3 +44,6 @@ sphinxcontrib-apidoc
 sphinx-rtd-theme
 m2r
 m2r2
+
+# game
+pyside2

@@ -1,161 +1,144 @@
-# MetaBCI
+# MetaBCI-DTx
 
-## Welcome! 
-MetaBCI is an open-source platform for non-invasive brain computer interface. The project of MetaBCI is led by Prof. Minpeng Xu from Tianjin University, China. MetaBCI has 3 main parts:
-* brainda: for importing dataset, pre-processing EEG data and implementing EEG decoding algorithms.
-* brainflow: a high speed EEG online data processing framework.
-* brainstim: a simple and efficient BCI experiment paradigms design module. 
+## 应用概述
 
-This is the first release of MetaBCI, our team will continue to maintain the repository. If you need the handbook of this repository, please contact us by sending email to TBC_TJU_2022@163.com with the following information:
-* Name of your teamleader
-* Name of your university(or organization)
+MetaBCI-DTx 是一款基于 MetaBCI 为底层框架搭建的一种数字疗法解决方案。该解决方案目标是以游戏设计作为切入点，提升用户的参与度，增强治疗的的趣味性。目前，已上线一款以农场种植为主题的游戏，该游戏是基于多种脑机接口(BCI)范式的神经康复训练游戏，专门为自闭症谱系障碍、注意缺陷多动障碍等神经发育障碍患儿以及运动功能障碍患儿设计。通过整合运动想象、语音识别和视觉刺激等多种BCI控制逻辑，结合MetaBCI架构，本项目能够提供个性化和趣味性的康复训练方案。
 
-We will send you a copy of the handbook as soon as we receive your information.
+## 优势特点
 
-- [MetaBCI](#metabci)
-  - [Welcome!](#welcome)
-  - [What are we doing?](#what-are-we-doing)
-    - [The problem](#the-problem)
-    - [The solution](#the-solution)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Who are we?](#who-are-we)
-  - [What do we need?](#what-do-we-need)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
-  - [Acknowledgements](#acknowledgements)
+1. ##### 运动想象与SSVEP的实现采用 MetaBCI 框架中的内置算法
 
-## What are we doing?
+2. ##### P300 信号的处理基于支持向量机（SVM）进行
 
-### The problem
+3. ##### 注意力的量化计算依赖于 alpha 波与 beta 波的频率比值分析
 
-* BCI datasets come in different formats and standards
-* It's tedious to figure out the details of the data
-* Lack of python implementations of modern decoding algorithms
-* It's not an easy thing to perform BCI experiments especially for the online ones.
+4. ##### 元音想象的识别与分类通过应用基于模型无关元学习（MAML）的策略结合多层神经网络来实现
 
-If someone new to the BCI wants to do some interesting research, most of their time would be spent on preprocessing the data, reproducing the algorithm in the paper, and also find it difficult to bring the algorithms into BCI experiments.
+## 环境搭建
 
-### The solution
+1. ##### 克隆代码
 
-The Meta-BCI will:
-
-* Allow users to load the data easily without knowing the details
-* Provide flexible hook functions to control the preprocessing flow
-* Provide the latest decoding algorithms
-* Provide the experiment UI for different paradigms (e.g. MI, P300 and SSVEP)
-* Provide the online data acquiring pipeline.
-* Allow users to bring their pre-trained models to the online decoding pipeline.
-
-The goal of the Meta-BCI is to make researchers focus on improving their own BCI algorithms and performing their experiments without wasting too much time on preliminary preparations.
-
-## Features
-
-* Improvements to MOABB APIs
-   - add hook functions to control the preprocessing flow more easily
-   - use joblib to accelerate the data loading
-   - add proxy options for network connection issues
-   - add more information in the meta of data
-   - other small changes
-
-* Supported Datasets
-   - MI Datasets
-     - AlexMI
-     - BNCI2014001, BNCI2014004
-     - PhysionetMI, PhysionetME
-     - Cho2017
-     - MunichMI
-     - Schirrmeister2017
-     - Weibo2014
-     - Zhou2016
-   - SSVEP Datasets
-     - Nakanishi2015
-     - Wang2016
-     - BETA
-
-* Implemented BCI algorithms
-   - Decomposition Methods
-     - SPoC, CSP, MultiCSP and FBCSP
-     - CCA, itCCA, MsCCA, ExtendCCA, ttCCA, MsetCCA, MsetCCA-R, TRCA, TRCA-R, SSCOR and TDCA
-     - DSP
-   - Manifold Learning
-     - Basic Riemannian Geometry operations
-     - Alignment methods
-     - Riemann Procustes Analysis
-   - Deep Learning
-     - ShallowConvNet
-     - EEGNet
-     - ConvCA
-     - GuneyNet
-     - Cross dataset transfer learning based on pre-training
-   - Transfer Learning
-     - MEKT
-     - LST
-
-## Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/TBC-TJU/MetaBCI.git
+   ```shell
+   git clone git@github.com:arfysica/MetaBCI-DTx.git
    ```
-2. Change to the project directory
-   ```sh
-   cd MetaBCI
+
+2. ##### 切换分支
+
+   ```shell
+   git checkout feature/dtx
    ```
-3. Install all requirements
-   ```sh
-   pip install -r requirements.txt 
+
+3. ##### 准备环境
+
+   ```shell
+   cd MetaBCI-DTx
+   
+   # 如需使用虚拟环境，请自行构建，构建完成后，执行下述命令
+   pip install -r requirements.txt
    ```
-4. Install brainda package with the editable mode
-   ```sh
-   pip install -e .
+
+4. ##### 启动项目
+
+   ```shell
+   # 启动服务端，主要用于数据分析与处理、以及模拟数据
+   cd dataProcess
+   
+   # 根据实际需要，设置路径位置，默认为项目根路径的 data 目录和启动脚本同级目录的 LangMode.pth 文件
+   python gAmpli.py [-p 指定生成数据的路径] [-m 指定语言想象范式数据集的路径]
+   
+   # 启动客户端，主要运行农场主题游戏
+   cd game
+   
+   # 启动游戏
+   python main_scene.py
    ```
-## Who are we?
 
-The MetaBCI project is carried out by researchers from 
-- Academy of Medical Engineering and Translational Medicine, Tianjin University, China
-- Tianjin Brain Center, China
+## 游戏介绍
 
+游戏是一款农场种植为主题的游戏，游戏主要包括4个阶段，分别是**播种选择、植物成长、除草护理、成熟收获**。另外，除主游戏进程外，游戏还包括游戏加载启动、设置训练模型等其他场景。
 
-## What do we need?
+1. ##### 播种选择阶段
 
-**You**! In whatever way you can help.
+   （1）从5种植物种子中依次选择3种
 
-We need expertise in programming, user experience, software sustainability, documentation and technical writing and project management.
+   （2）选中后，更新状态为选中
 
-We'd love your feedback along the way.
+   （3）选择后的种子不再参与后续选择
 
-## Contributing
+   （4）将选中的种子随机播种在九块土地上
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. **Any contributions you make are greatly appreciated**. Especially welcome to submit BCI algorithms.
+2. ##### 植物成长阶段
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+   （1）依次完成「选地」-「养护」任务
+
+   （2）选地阶段：随机某地上方出现花洒，土地依次闪烁，识别成功执行（3）养护任务
+
+   （3）养护任务包括「浇水/施肥」和「力度控制」
+
+   （4）选择养护方式，浇水（左）和施肥（右），如果（2）出现是花洒，则引导用户想象浇水，否则是施肥
+
+   （5）控制养护力度，设置5秒范围，数值超过60，表示浇水/施肥成功
+
+   （6）养护任务执行3轮，9块土地依次养护，如果养护成功，植物状态升级，否则不变
+
+3. ##### 除草护理阶段
+
+   （1）植物分4个状态等级，包括萌芽期、幼苗期、生长期、成熟期
+
+   （2）未满成熟期的植物才有除草/除虫任务
+
+   （3）9块土地按照指定频率闪烁，随机选取至多3块未满成熟期的植物出现杂草/害虫
+
+   （4）限时30秒，完成除草/除虫任务，若除草/除虫成功，植物状态升级，否则不变
+
+4. ##### 成熟收获阶段
+
+   （1）上述3个阶段完成，收获已达到成熟期的植物
+
+   （2）根据成熟植物数量给予称号
+
+   ​     1）初级园艺师：收获0~3棵植物
+
+   ​     2）中级园艺师：收获4~6棵植物
+
+   ​     3）高级园艺师：收获7~9棵植物
+
+   （3）根据整个阶段产生的脑电波形，挑选一段波形数据生成一段庆祝音乐（敬请期待）
+
+## 游戏预览
+
+- ##### 游戏启动
+
+  ![游戏启动](./assets/游戏启动.jpg)
+
+- ##### 设置训练模型
+
+  ![设置训练模型](./assets/设置训练模型.jpg)
+
+- ##### 选择植物
+
+    ![选择植物](./assets/选择植物.jpg)
+
+- ##### 选择土地
+
+    ![选择土地](./assets/选择土地.jpg)
+
+- ##### 选择养护方式
+
+    ![选择养护方式](./assets/选择养护方式.jpg)
+
+- ##### 集中注意力
+
+    ![集中注意力](./assets/集中注意力.jpg)
+
+- ##### 除虫任务
+
+    ![除虫任务](./assets/除虫任务.jpg)
+
+- ##### 游戏结算
+
+    ![游戏结算](./assets/游戏结算.jpg)
 
 ## License
 
-Distributed under the GNU General Public License v2.0 License. See `LICENSE` for more information.
-
-## Contact
-
-Email: TBC_TJU_2022@163.com
-
-## Paper
-
-If you applied MetaBCI in your research, please cite:
-Mei, J., Luo, R., Xu, L., Zhao, W., Wen, S., Wang, K., ... & Ming, D. (2023). MetaBCI: An open-source platform for brain-computer interfaces. Computers in Biology and Medicine, 107806.
-
-And this open access paper can be found here: [MetaBCI](https://www.sciencedirect.com/science/article/pii/S0010482523012714)
-
-## Acknowledgements
-- [MNE](https://github.com/mne-tools/mne-python)
-- [MOABB](https://github.com/NeuroTechX/moabb)
-- [pyRiemann](https://github.com/alexandrebarachant/pyRiemann)
-- [TRCA/eTRCA](https://github.com/mnakanishi/TRCA-SSVEP)
-- [EEGNet](https://github.com/vlawhern/arl-eegmodels)
-- [RPA](https://github.com/plcrodrigues/RPA)
-- [MEKT](https://github.com/chamwen/MEKT)
+> Distributed under the GNU General Public License v2.0 License. See [LICENSE](./LICENSE) for more information.

@@ -160,7 +160,7 @@ class FeedbackWorker(ProcessWorker):
         data = np.array(data, dtype=np.float64).T
         data = data[self.ch_ind]
         p_labels = model_predict(data, srate=self.srate, model=self.estimator)
-        p_labels = np.array([int(p_labels + 1)])
+        p_labels: np.ndarray[time.Any, np.dtype[time.Any]] = np.array([int(p_labels + 1)])
         # p_labels = p_labels.tolist()
         p_labels = list(p_labels)
         print('predict_id_paradigm', p_labels)

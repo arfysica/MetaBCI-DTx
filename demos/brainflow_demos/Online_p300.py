@@ -411,6 +411,7 @@ class FeedbackWorker(ProcessWorker):
                           nominal_srate=0,
                           channel_format='int32',
                           source_id=self.lsl_source_id)
+        
         self.outlet = StreamOutlet(info)
         print('Waiting connection...')
         while not self._exit:

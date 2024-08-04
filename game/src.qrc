@@ -1,0 +1,939 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/background.jpg</file>
+        <file>resources/framesequence/Fertilize/0.png</file>
+        <file>resources/framesequence/Fertilize/1.png</file>
+        <file>resources/framesequence/Fertilize/10.png</file>
+        <file>resources/framesequence/Fertilize/11.png</file>
+        <file>resources/framesequence/Fertilize/12.png</file>
+        <file>resources/framesequence/Fertilize/13.png</file>
+        <file>resources/framesequence/Fertilize/14.png</file>
+        <file>resources/framesequence/Fertilize/15.png</file>
+        <file>resources/framesequence/Fertilize/16.png</file>
+        <file>resources/framesequence/Fertilize/17.png</file>
+        <file>resources/framesequence/Fertilize/18.png</file>
+        <file>resources/framesequence/Fertilize/19.png</file>
+        <file>resources/framesequence/Fertilize/2.png</file>
+        <file>resources/framesequence/Fertilize/20.png</file>
+        <file>resources/framesequence/Fertilize/21.png</file>
+        <file>resources/framesequence/Fertilize/22.png</file>
+        <file>resources/framesequence/Fertilize/23.png</file>
+        <file>resources/framesequence/Fertilize/24.png</file>
+        <file>resources/framesequence/Fertilize/25.png</file>
+        <file>resources/framesequence/Fertilize/26.png</file>
+        <file>resources/framesequence/Fertilize/27.png</file>
+        <file>resources/framesequence/Fertilize/28.png</file>
+        <file>resources/framesequence/Fertilize/29.png</file>
+        <file>resources/framesequence/Fertilize/3.png</file>
+        <file>resources/framesequence/Fertilize/30.png</file>
+        <file>resources/framesequence/Fertilize/31.png</file>
+        <file>resources/framesequence/Fertilize/32.png</file>
+        <file>resources/framesequence/Fertilize/33.png</file>
+        <file>resources/framesequence/Fertilize/34.png</file>
+        <file>resources/framesequence/Fertilize/35.png</file>
+        <file>resources/framesequence/Fertilize/36.png</file>
+        <file>resources/framesequence/Fertilize/37.png</file>
+        <file>resources/framesequence/Fertilize/38.png</file>
+        <file>resources/framesequence/Fertilize/39.png</file>
+        <file>resources/framesequence/Fertilize/4.png</file>
+        <file>resources/framesequence/Fertilize/40.png</file>
+        <file>resources/framesequence/Fertilize/41.png</file>
+        <file>resources/framesequence/Fertilize/42.png</file>
+        <file>resources/framesequence/Fertilize/43.png</file>
+        <file>resources/framesequence/Fertilize/44.png</file>
+        <file>resources/framesequence/Fertilize/45.png</file>
+        <file>resources/framesequence/Fertilize/46.png</file>
+        <file>resources/framesequence/Fertilize/47.png</file>
+        <file>resources/framesequence/Fertilize/48.png</file>
+        <file>resources/framesequence/Fertilize/49.png</file>
+        <file>resources/framesequence/Fertilize/5.png</file>
+        <file>resources/framesequence/Fertilize/6.png</file>
+        <file>resources/framesequence/Fertilize/7.png</file>
+        <file>resources/framesequence/Fertilize/8.png</file>
+        <file>resources/framesequence/Fertilize/9.png</file>
+        <file>resources/plane1.png</file>
+        <file>resources/plane2.png</file>
+        <file>resources/plane3.png</file>
+        <file>resources/plant/a.png</file>
+        <file>resources/plant/e.png</file>
+        <file>resources/plant/i.png</file>
+        <file>resources/plant/o.png</file>
+        <file>resources/plant/u.png</file>
+        <file>resources/plantBg.png</file>
+        <file>resources/plant/border.png</file>
+        <file>resources/motorImagery/mi.png</file>
+        <file>resources/plant/1/Grape.png</file>
+        <file>resources/plant/1/Peach.png</file>
+        <file>resources/plant/1/Pineapple.png</file>
+        <file>resources/plant/1/Strawberry.png</file>
+        <file>resources/plant/2/Grape.png</file>
+        <file>resources/plant/2/Peach.png</file>
+        <file>resources/plant/2/Pineapple.png</file>
+        <file>resources/plant/2/Strawberry.png</file>
+        <file>resources/motorImagery/bubble.png</file>
+        <file>resources/framesequence/Grape/0 .png</file>
+        <file>resources/framesequence/Grape/1 .png</file>
+        <file>resources/framesequence/Grape/10 .png</file>
+        <file>resources/framesequence/Grape/100 .png</file>
+        <file>resources/framesequence/Grape/101 .png</file>
+        <file>resources/framesequence/Grape/102 .png</file>
+        <file>resources/framesequence/Grape/103 .png</file>
+        <file>resources/framesequence/Grape/104 .png</file>
+        <file>resources/framesequence/Grape/105 .png</file>
+        <file>resources/framesequence/Grape/106 .png</file>
+        <file>resources/framesequence/Grape/107 .png</file>
+        <file>resources/framesequence/Grape/108 .png</file>
+        <file>resources/framesequence/Grape/109 .png</file>
+        <file>resources/framesequence/Grape/11 .png</file>
+        <file>resources/framesequence/Grape/110 .png</file>
+        <file>resources/framesequence/Grape/111 .png</file>
+        <file>resources/framesequence/Grape/112 .png</file>
+        <file>resources/framesequence/Grape/113 .png</file>
+        <file>resources/framesequence/Grape/114 .png</file>
+        <file>resources/framesequence/Grape/115 .png</file>
+        <file>resources/framesequence/Grape/116 .png</file>
+        <file>resources/framesequence/Grape/117 .png</file>
+        <file>resources/framesequence/Grape/118 .png</file>
+        <file>resources/framesequence/Grape/119 .png</file>
+        <file>resources/framesequence/Grape/12 .png</file>
+        <file>resources/framesequence/Grape/120 .png</file>
+        <file>resources/framesequence/Grape/121 .png</file>
+        <file>resources/framesequence/Grape/122 .png</file>
+        <file>resources/framesequence/Grape/123 .png</file>
+        <file>resources/framesequence/Grape/124 .png</file>
+        <file>resources/framesequence/Grape/125 .png</file>
+        <file>resources/framesequence/Grape/126 .png</file>
+        <file>resources/framesequence/Grape/127 .png</file>
+        <file>resources/framesequence/Grape/128 .png</file>
+        <file>resources/framesequence/Grape/129 .png</file>
+        <file>resources/framesequence/Grape/13 .png</file>
+        <file>resources/framesequence/Grape/130 .png</file>
+        <file>resources/framesequence/Grape/131 .png</file>
+        <file>resources/framesequence/Grape/132 .png</file>
+        <file>resources/framesequence/Grape/133 .png</file>
+        <file>resources/framesequence/Grape/134 .png</file>
+        <file>resources/framesequence/Grape/135 .png</file>
+        <file>resources/framesequence/Grape/136 .png</file>
+        <file>resources/framesequence/Grape/137 .png</file>
+        <file>resources/framesequence/Grape/138 .png</file>
+        <file>resources/framesequence/Grape/139 .png</file>
+        <file>resources/framesequence/Grape/14 .png</file>
+        <file>resources/framesequence/Grape/140 .png</file>
+        <file>resources/framesequence/Grape/141 .png</file>
+        <file>resources/framesequence/Grape/142 .png</file>
+        <file>resources/framesequence/Grape/143 .png</file>
+        <file>resources/framesequence/Grape/144 .png</file>
+        <file>resources/framesequence/Grape/145 .png</file>
+        <file>resources/framesequence/Grape/146 .png</file>
+        <file>resources/framesequence/Grape/147 .png</file>
+        <file>resources/framesequence/Grape/148 .png</file>
+        <file>resources/framesequence/Grape/149 .png</file>
+        <file>resources/framesequence/Grape/15 .png</file>
+        <file>resources/framesequence/Grape/16 .png</file>
+        <file>resources/framesequence/Grape/17 .png</file>
+        <file>resources/framesequence/Grape/18 .png</file>
+        <file>resources/framesequence/Grape/19 .png</file>
+        <file>resources/framesequence/Grape/2 .png</file>
+        <file>resources/framesequence/Grape/20 .png</file>
+        <file>resources/framesequence/Grape/21 .png</file>
+        <file>resources/framesequence/Grape/22 .png</file>
+        <file>resources/framesequence/Grape/23 .png</file>
+        <file>resources/framesequence/Grape/24 .png</file>
+        <file>resources/framesequence/Grape/25 .png</file>
+        <file>resources/framesequence/Grape/26 .png</file>
+        <file>resources/framesequence/Grape/27 .png</file>
+        <file>resources/framesequence/Grape/28 .png</file>
+        <file>resources/framesequence/Grape/29 .png</file>
+        <file>resources/framesequence/Grape/3 .png</file>
+        <file>resources/framesequence/Grape/30 .png</file>
+        <file>resources/framesequence/Grape/31 .png</file>
+        <file>resources/framesequence/Grape/32 .png</file>
+        <file>resources/framesequence/Grape/33 .png</file>
+        <file>resources/framesequence/Grape/34 .png</file>
+        <file>resources/framesequence/Grape/35 .png</file>
+        <file>resources/framesequence/Grape/36 .png</file>
+        <file>resources/framesequence/Grape/37 .png</file>
+        <file>resources/framesequence/Grape/38 .png</file>
+        <file>resources/framesequence/Grape/39 .png</file>
+        <file>resources/framesequence/Grape/4 .png</file>
+        <file>resources/framesequence/Grape/40 .png</file>
+        <file>resources/framesequence/Grape/41 .png</file>
+        <file>resources/framesequence/Grape/42 .png</file>
+        <file>resources/framesequence/Grape/43 .png</file>
+        <file>resources/framesequence/Grape/44 .png</file>
+        <file>resources/framesequence/Grape/45 .png</file>
+        <file>resources/framesequence/Grape/46 .png</file>
+        <file>resources/framesequence/Grape/47 .png</file>
+        <file>resources/framesequence/Grape/48 .png</file>
+        <file>resources/framesequence/Grape/49 .png</file>
+        <file>resources/framesequence/Grape/5 .png</file>
+        <file>resources/framesequence/Grape/50 .png</file>
+        <file>resources/framesequence/Grape/51 .png</file>
+        <file>resources/framesequence/Grape/52 .png</file>
+        <file>resources/framesequence/Grape/53 .png</file>
+        <file>resources/framesequence/Grape/54 .png</file>
+        <file>resources/framesequence/Grape/55 .png</file>
+        <file>resources/framesequence/Grape/56 .png</file>
+        <file>resources/framesequence/Grape/57 .png</file>
+        <file>resources/framesequence/Grape/58 .png</file>
+        <file>resources/framesequence/Grape/59 .png</file>
+        <file>resources/framesequence/Grape/6 .png</file>
+        <file>resources/framesequence/Grape/60 .png</file>
+        <file>resources/framesequence/Grape/61 .png</file>
+        <file>resources/framesequence/Grape/62 .png</file>
+        <file>resources/framesequence/Grape/63 .png</file>
+        <file>resources/framesequence/Grape/64 .png</file>
+        <file>resources/framesequence/Grape/65 .png</file>
+        <file>resources/framesequence/Grape/66 .png</file>
+        <file>resources/framesequence/Grape/67 .png</file>
+        <file>resources/framesequence/Grape/68 .png</file>
+        <file>resources/framesequence/Grape/69 .png</file>
+        <file>resources/framesequence/Grape/7 .png</file>
+        <file>resources/framesequence/Grape/70 .png</file>
+        <file>resources/framesequence/Grape/71 .png</file>
+        <file>resources/framesequence/Grape/72 .png</file>
+        <file>resources/framesequence/Grape/73 .png</file>
+        <file>resources/framesequence/Grape/74 .png</file>
+        <file>resources/framesequence/Grape/75 .png</file>
+        <file>resources/framesequence/Grape/76 .png</file>
+        <file>resources/framesequence/Grape/77 .png</file>
+        <file>resources/framesequence/Grape/78 .png</file>
+        <file>resources/framesequence/Grape/79 .png</file>
+        <file>resources/framesequence/Grape/8 .png</file>
+        <file>resources/framesequence/Grape/80 .png</file>
+        <file>resources/framesequence/Grape/81 .png</file>
+        <file>resources/framesequence/Grape/82 .png</file>
+        <file>resources/framesequence/Grape/83 .png</file>
+        <file>resources/framesequence/Grape/84 .png</file>
+        <file>resources/framesequence/Grape/85 .png</file>
+        <file>resources/framesequence/Grape/86 .png</file>
+        <file>resources/framesequence/Grape/87 .png</file>
+        <file>resources/framesequence/Grape/88 .png</file>
+        <file>resources/framesequence/Grape/89 .png</file>
+        <file>resources/framesequence/Grape/9 .png</file>
+        <file>resources/framesequence/Grape/90 .png</file>
+        <file>resources/framesequence/Grape/91 .png</file>
+        <file>resources/framesequence/Grape/92 .png</file>
+        <file>resources/framesequence/Grape/93 .png</file>
+        <file>resources/framesequence/Grape/94 .png</file>
+        <file>resources/framesequence/Grape/95 .png</file>
+        <file>resources/framesequence/Grape/96 .png</file>
+        <file>resources/framesequence/Grape/97 .png</file>
+        <file>resources/framesequence/Grape/98 .png</file>
+        <file>resources/framesequence/Grape/99 .png</file>
+        <file>resources/framesequence/Peach/0 .png</file>
+        <file>resources/framesequence/Peach/1 .png</file>
+        <file>resources/framesequence/Peach/10 .png</file>
+        <file>resources/framesequence/Peach/100 .png</file>
+        <file>resources/framesequence/Peach/101 .png</file>
+        <file>resources/framesequence/Peach/102 .png</file>
+        <file>resources/framesequence/Peach/103 .png</file>
+        <file>resources/framesequence/Peach/104 .png</file>
+        <file>resources/framesequence/Peach/105 .png</file>
+        <file>resources/framesequence/Peach/106 .png</file>
+        <file>resources/framesequence/Peach/107 .png</file>
+        <file>resources/framesequence/Peach/108 .png</file>
+        <file>resources/framesequence/Peach/109 .png</file>
+        <file>resources/framesequence/Peach/11 .png</file>
+        <file>resources/framesequence/Peach/110 .png</file>
+        <file>resources/framesequence/Peach/111 .png</file>
+        <file>resources/framesequence/Peach/112 .png</file>
+        <file>resources/framesequence/Peach/113 .png</file>
+        <file>resources/framesequence/Peach/114 .png</file>
+        <file>resources/framesequence/Peach/115 .png</file>
+        <file>resources/framesequence/Peach/116 .png</file>
+        <file>resources/framesequence/Peach/117 .png</file>
+        <file>resources/framesequence/Peach/118 .png</file>
+        <file>resources/framesequence/Peach/119 .png</file>
+        <file>resources/framesequence/Peach/12 .png</file>
+        <file>resources/framesequence/Peach/120 .png</file>
+        <file>resources/framesequence/Peach/121 .png</file>
+        <file>resources/framesequence/Peach/122 .png</file>
+        <file>resources/framesequence/Peach/123 .png</file>
+        <file>resources/framesequence/Peach/124 .png</file>
+        <file>resources/framesequence/Peach/125 .png</file>
+        <file>resources/framesequence/Peach/126 .png</file>
+        <file>resources/framesequence/Peach/127 .png</file>
+        <file>resources/framesequence/Peach/128 .png</file>
+        <file>resources/framesequence/Peach/129 .png</file>
+        <file>resources/framesequence/Peach/13 .png</file>
+        <file>resources/framesequence/Peach/130 .png</file>
+        <file>resources/framesequence/Peach/131 .png</file>
+        <file>resources/framesequence/Peach/132 .png</file>
+        <file>resources/framesequence/Peach/133 .png</file>
+        <file>resources/framesequence/Peach/134 .png</file>
+        <file>resources/framesequence/Peach/135 .png</file>
+        <file>resources/framesequence/Peach/136 .png</file>
+        <file>resources/framesequence/Peach/137 .png</file>
+        <file>resources/framesequence/Peach/138 .png</file>
+        <file>resources/framesequence/Peach/139 .png</file>
+        <file>resources/framesequence/Peach/14 .png</file>
+        <file>resources/framesequence/Peach/140 .png</file>
+        <file>resources/framesequence/Peach/141 .png</file>
+        <file>resources/framesequence/Peach/142 .png</file>
+        <file>resources/framesequence/Peach/143 .png</file>
+        <file>resources/framesequence/Peach/144 .png</file>
+        <file>resources/framesequence/Peach/145 .png</file>
+        <file>resources/framesequence/Peach/146 .png</file>
+        <file>resources/framesequence/Peach/147 .png</file>
+        <file>resources/framesequence/Peach/148 .png</file>
+        <file>resources/framesequence/Peach/149 .png</file>
+        <file>resources/framesequence/Peach/15 .png</file>
+        <file>resources/framesequence/Peach/16 .png</file>
+        <file>resources/framesequence/Peach/17 .png</file>
+        <file>resources/framesequence/Peach/18 .png</file>
+        <file>resources/framesequence/Peach/19 .png</file>
+        <file>resources/framesequence/Peach/2 .png</file>
+        <file>resources/framesequence/Peach/20 .png</file>
+        <file>resources/framesequence/Peach/21 .png</file>
+        <file>resources/framesequence/Peach/22 .png</file>
+        <file>resources/framesequence/Peach/23 .png</file>
+        <file>resources/framesequence/Peach/24 .png</file>
+        <file>resources/framesequence/Peach/25 .png</file>
+        <file>resources/framesequence/Peach/26 .png</file>
+        <file>resources/framesequence/Peach/27 .png</file>
+        <file>resources/framesequence/Peach/28 .png</file>
+        <file>resources/framesequence/Peach/29 .png</file>
+        <file>resources/framesequence/Peach/3 .png</file>
+        <file>resources/framesequence/Peach/30 .png</file>
+        <file>resources/framesequence/Peach/31 .png</file>
+        <file>resources/framesequence/Peach/32 .png</file>
+        <file>resources/framesequence/Peach/33 .png</file>
+        <file>resources/framesequence/Peach/34 .png</file>
+        <file>resources/framesequence/Peach/35 .png</file>
+        <file>resources/framesequence/Peach/36 .png</file>
+        <file>resources/framesequence/Peach/37 .png</file>
+        <file>resources/framesequence/Peach/38 .png</file>
+        <file>resources/framesequence/Peach/39 .png</file>
+        <file>resources/framesequence/Peach/4 .png</file>
+        <file>resources/framesequence/Peach/40 .png</file>
+        <file>resources/framesequence/Peach/41 .png</file>
+        <file>resources/framesequence/Peach/42 .png</file>
+        <file>resources/framesequence/Peach/43 .png</file>
+        <file>resources/framesequence/Peach/44 .png</file>
+        <file>resources/framesequence/Peach/45 .png</file>
+        <file>resources/framesequence/Peach/46 .png</file>
+        <file>resources/framesequence/Peach/47 .png</file>
+        <file>resources/framesequence/Peach/48 .png</file>
+        <file>resources/framesequence/Peach/49 .png</file>
+        <file>resources/framesequence/Peach/5 .png</file>
+        <file>resources/framesequence/Peach/50 .png</file>
+        <file>resources/framesequence/Peach/51 .png</file>
+        <file>resources/framesequence/Peach/52 .png</file>
+        <file>resources/framesequence/Peach/53 .png</file>
+        <file>resources/framesequence/Peach/54 .png</file>
+        <file>resources/framesequence/Peach/55 .png</file>
+        <file>resources/framesequence/Peach/56 .png</file>
+        <file>resources/framesequence/Peach/57 .png</file>
+        <file>resources/framesequence/Peach/58 .png</file>
+        <file>resources/framesequence/Peach/59 .png</file>
+        <file>resources/framesequence/Peach/6 .png</file>
+        <file>resources/framesequence/Peach/60 .png</file>
+        <file>resources/framesequence/Peach/61 .png</file>
+        <file>resources/framesequence/Peach/62 .png</file>
+        <file>resources/framesequence/Peach/63 .png</file>
+        <file>resources/framesequence/Peach/64 .png</file>
+        <file>resources/framesequence/Peach/65 .png</file>
+        <file>resources/framesequence/Peach/66 .png</file>
+        <file>resources/framesequence/Peach/67 .png</file>
+        <file>resources/framesequence/Peach/68 .png</file>
+        <file>resources/framesequence/Peach/69 .png</file>
+        <file>resources/framesequence/Peach/7 .png</file>
+        <file>resources/framesequence/Peach/70 .png</file>
+        <file>resources/framesequence/Peach/71 .png</file>
+        <file>resources/framesequence/Peach/72 .png</file>
+        <file>resources/framesequence/Peach/73 .png</file>
+        <file>resources/framesequence/Peach/74 .png</file>
+        <file>resources/framesequence/Peach/75 .png</file>
+        <file>resources/framesequence/Peach/76 .png</file>
+        <file>resources/framesequence/Peach/77 .png</file>
+        <file>resources/framesequence/Peach/78 .png</file>
+        <file>resources/framesequence/Peach/79 .png</file>
+        <file>resources/framesequence/Peach/8 .png</file>
+        <file>resources/framesequence/Peach/80 .png</file>
+        <file>resources/framesequence/Peach/81 .png</file>
+        <file>resources/framesequence/Peach/82 .png</file>
+        <file>resources/framesequence/Peach/83 .png</file>
+        <file>resources/framesequence/Peach/84 .png</file>
+        <file>resources/framesequence/Peach/85 .png</file>
+        <file>resources/framesequence/Peach/86 .png</file>
+        <file>resources/framesequence/Peach/87 .png</file>
+        <file>resources/framesequence/Peach/88 .png</file>
+        <file>resources/framesequence/Peach/89 .png</file>
+        <file>resources/framesequence/Peach/9 .png</file>
+        <file>resources/framesequence/Peach/90 .png</file>
+        <file>resources/framesequence/Peach/91 .png</file>
+        <file>resources/framesequence/Peach/92 .png</file>
+        <file>resources/framesequence/Peach/93 .png</file>
+        <file>resources/framesequence/Peach/94 .png</file>
+        <file>resources/framesequence/Peach/95 .png</file>
+        <file>resources/framesequence/Peach/96 .png</file>
+        <file>resources/framesequence/Peach/97 .png</file>
+        <file>resources/framesequence/Peach/98 .png</file>
+        <file>resources/framesequence/Peach/99 .png</file>
+        <file>resources/framesequence/Pineapple/0 .png</file>
+        <file>resources/framesequence/Pineapple/1 .png</file>
+        <file>resources/framesequence/Pineapple/10 .png</file>
+        <file>resources/framesequence/Pineapple/100 .png</file>
+        <file>resources/framesequence/Pineapple/101 .png</file>
+        <file>resources/framesequence/Pineapple/102 .png</file>
+        <file>resources/framesequence/Pineapple/103 .png</file>
+        <file>resources/framesequence/Pineapple/104 .png</file>
+        <file>resources/framesequence/Pineapple/105 .png</file>
+        <file>resources/framesequence/Pineapple/106 .png</file>
+        <file>resources/framesequence/Pineapple/107 .png</file>
+        <file>resources/framesequence/Pineapple/108 .png</file>
+        <file>resources/framesequence/Pineapple/109 .png</file>
+        <file>resources/framesequence/Pineapple/11 .png</file>
+        <file>resources/framesequence/Pineapple/110 .png</file>
+        <file>resources/framesequence/Pineapple/111 .png</file>
+        <file>resources/framesequence/Pineapple/112 .png</file>
+        <file>resources/framesequence/Pineapple/113 .png</file>
+        <file>resources/framesequence/Pineapple/114 .png</file>
+        <file>resources/framesequence/Pineapple/115 .png</file>
+        <file>resources/framesequence/Pineapple/116 .png</file>
+        <file>resources/framesequence/Pineapple/117 .png</file>
+        <file>resources/framesequence/Pineapple/118 .png</file>
+        <file>resources/framesequence/Pineapple/119 .png</file>
+        <file>resources/framesequence/Pineapple/12 .png</file>
+        <file>resources/framesequence/Pineapple/120 .png</file>
+        <file>resources/framesequence/Pineapple/121 .png</file>
+        <file>resources/framesequence/Pineapple/122 .png</file>
+        <file>resources/framesequence/Pineapple/123 .png</file>
+        <file>resources/framesequence/Pineapple/124 .png</file>
+        <file>resources/framesequence/Pineapple/125 .png</file>
+        <file>resources/framesequence/Pineapple/126 .png</file>
+        <file>resources/framesequence/Pineapple/127 .png</file>
+        <file>resources/framesequence/Pineapple/128 .png</file>
+        <file>resources/framesequence/Pineapple/129 .png</file>
+        <file>resources/framesequence/Pineapple/13 .png</file>
+        <file>resources/framesequence/Pineapple/130 .png</file>
+        <file>resources/framesequence/Pineapple/131 .png</file>
+        <file>resources/framesequence/Pineapple/132 .png</file>
+        <file>resources/framesequence/Pineapple/133 .png</file>
+        <file>resources/framesequence/Pineapple/134 .png</file>
+        <file>resources/framesequence/Pineapple/135 .png</file>
+        <file>resources/framesequence/Pineapple/136 .png</file>
+        <file>resources/framesequence/Pineapple/137 .png</file>
+        <file>resources/framesequence/Pineapple/138 .png</file>
+        <file>resources/framesequence/Pineapple/139 .png</file>
+        <file>resources/framesequence/Pineapple/14 .png</file>
+        <file>resources/framesequence/Pineapple/140 .png</file>
+        <file>resources/framesequence/Pineapple/141 .png</file>
+        <file>resources/framesequence/Pineapple/142 .png</file>
+        <file>resources/framesequence/Pineapple/143 .png</file>
+        <file>resources/framesequence/Pineapple/144 .png</file>
+        <file>resources/framesequence/Pineapple/145 .png</file>
+        <file>resources/framesequence/Pineapple/146 .png</file>
+        <file>resources/framesequence/Pineapple/147 .png</file>
+        <file>resources/framesequence/Pineapple/148 .png</file>
+        <file>resources/framesequence/Pineapple/149 .png</file>
+        <file>resources/framesequence/Pineapple/15 .png</file>
+        <file>resources/framesequence/Pineapple/16 .png</file>
+        <file>resources/framesequence/Pineapple/17 .png</file>
+        <file>resources/framesequence/Pineapple/18 .png</file>
+        <file>resources/framesequence/Pineapple/19 .png</file>
+        <file>resources/framesequence/Pineapple/2 .png</file>
+        <file>resources/framesequence/Pineapple/20 .png</file>
+        <file>resources/framesequence/Pineapple/21 .png</file>
+        <file>resources/framesequence/Pineapple/22 .png</file>
+        <file>resources/framesequence/Pineapple/23 .png</file>
+        <file>resources/framesequence/Pineapple/24 .png</file>
+        <file>resources/framesequence/Pineapple/25 .png</file>
+        <file>resources/framesequence/Pineapple/26 .png</file>
+        <file>resources/framesequence/Pineapple/27 .png</file>
+        <file>resources/framesequence/Pineapple/28 .png</file>
+        <file>resources/framesequence/Pineapple/29 .png</file>
+        <file>resources/framesequence/Pineapple/3 .png</file>
+        <file>resources/framesequence/Pineapple/30 .png</file>
+        <file>resources/framesequence/Pineapple/31 .png</file>
+        <file>resources/framesequence/Pineapple/32 .png</file>
+        <file>resources/framesequence/Pineapple/33 .png</file>
+        <file>resources/framesequence/Pineapple/34 .png</file>
+        <file>resources/framesequence/Pineapple/35 .png</file>
+        <file>resources/framesequence/Pineapple/36 .png</file>
+        <file>resources/framesequence/Pineapple/37 .png</file>
+        <file>resources/framesequence/Pineapple/38 .png</file>
+        <file>resources/framesequence/Pineapple/39 .png</file>
+        <file>resources/framesequence/Pineapple/4 .png</file>
+        <file>resources/framesequence/Pineapple/40 .png</file>
+        <file>resources/framesequence/Pineapple/41 .png</file>
+        <file>resources/framesequence/Pineapple/42 .png</file>
+        <file>resources/framesequence/Pineapple/43 .png</file>
+        <file>resources/framesequence/Pineapple/44 .png</file>
+        <file>resources/framesequence/Pineapple/45 .png</file>
+        <file>resources/framesequence/Pineapple/46 .png</file>
+        <file>resources/framesequence/Pineapple/47 .png</file>
+        <file>resources/framesequence/Pineapple/48 .png</file>
+        <file>resources/framesequence/Pineapple/49 .png</file>
+        <file>resources/framesequence/Pineapple/5 .png</file>
+        <file>resources/framesequence/Pineapple/50 .png</file>
+        <file>resources/framesequence/Pineapple/51 .png</file>
+        <file>resources/framesequence/Pineapple/52 .png</file>
+        <file>resources/framesequence/Pineapple/53 .png</file>
+        <file>resources/framesequence/Pineapple/54 .png</file>
+        <file>resources/framesequence/Pineapple/55 .png</file>
+        <file>resources/framesequence/Pineapple/56 .png</file>
+        <file>resources/framesequence/Pineapple/57 .png</file>
+        <file>resources/framesequence/Pineapple/58 .png</file>
+        <file>resources/framesequence/Pineapple/59 .png</file>
+        <file>resources/framesequence/Pineapple/6 .png</file>
+        <file>resources/framesequence/Pineapple/60 .png</file>
+        <file>resources/framesequence/Pineapple/61 .png</file>
+        <file>resources/framesequence/Pineapple/62 .png</file>
+        <file>resources/framesequence/Pineapple/63 .png</file>
+        <file>resources/framesequence/Pineapple/64 .png</file>
+        <file>resources/framesequence/Pineapple/65 .png</file>
+        <file>resources/framesequence/Pineapple/66 .png</file>
+        <file>resources/framesequence/Pineapple/67 .png</file>
+        <file>resources/framesequence/Pineapple/68 .png</file>
+        <file>resources/framesequence/Pineapple/69 .png</file>
+        <file>resources/framesequence/Pineapple/7 .png</file>
+        <file>resources/framesequence/Pineapple/70 .png</file>
+        <file>resources/framesequence/Pineapple/71 .png</file>
+        <file>resources/framesequence/Pineapple/72 .png</file>
+        <file>resources/framesequence/Pineapple/73 .png</file>
+        <file>resources/framesequence/Pineapple/74 .png</file>
+        <file>resources/framesequence/Pineapple/75 .png</file>
+        <file>resources/framesequence/Pineapple/76 .png</file>
+        <file>resources/framesequence/Pineapple/77 .png</file>
+        <file>resources/framesequence/Pineapple/78 .png</file>
+        <file>resources/framesequence/Pineapple/79 .png</file>
+        <file>resources/framesequence/Pineapple/8 .png</file>
+        <file>resources/framesequence/Pineapple/80 .png</file>
+        <file>resources/framesequence/Pineapple/81 .png</file>
+        <file>resources/framesequence/Pineapple/82 .png</file>
+        <file>resources/framesequence/Pineapple/83 .png</file>
+        <file>resources/framesequence/Pineapple/84 .png</file>
+        <file>resources/framesequence/Pineapple/85 .png</file>
+        <file>resources/framesequence/Pineapple/86 .png</file>
+        <file>resources/framesequence/Pineapple/87 .png</file>
+        <file>resources/framesequence/Pineapple/88 .png</file>
+        <file>resources/framesequence/Pineapple/89 .png</file>
+        <file>resources/framesequence/Pineapple/9 .png</file>
+        <file>resources/framesequence/Pineapple/90 .png</file>
+        <file>resources/framesequence/Pineapple/91 .png</file>
+        <file>resources/framesequence/Pineapple/92 .png</file>
+        <file>resources/framesequence/Pineapple/93 .png</file>
+        <file>resources/framesequence/Pineapple/94 .png</file>
+        <file>resources/framesequence/Pineapple/95 .png</file>
+        <file>resources/framesequence/Pineapple/96 .png</file>
+        <file>resources/framesequence/Pineapple/97 .png</file>
+        <file>resources/framesequence/Pineapple/98 .png</file>
+        <file>resources/framesequence/Pineapple/99 .png</file>
+        <file>resources/framesequence/Strawberry/0 .png</file>
+        <file>resources/framesequence/Strawberry/1 .png</file>
+        <file>resources/framesequence/Strawberry/10 .png</file>
+        <file>resources/framesequence/Strawberry/100 .png</file>
+        <file>resources/framesequence/Strawberry/101 .png</file>
+        <file>resources/framesequence/Strawberry/102 .png</file>
+        <file>resources/framesequence/Strawberry/103 .png</file>
+        <file>resources/framesequence/Strawberry/104 .png</file>
+        <file>resources/framesequence/Strawberry/105 .png</file>
+        <file>resources/framesequence/Strawberry/106 .png</file>
+        <file>resources/framesequence/Strawberry/107 .png</file>
+        <file>resources/framesequence/Strawberry/108 .png</file>
+        <file>resources/framesequence/Strawberry/109 .png</file>
+        <file>resources/framesequence/Strawberry/11 .png</file>
+        <file>resources/framesequence/Strawberry/110 .png</file>
+        <file>resources/framesequence/Strawberry/111 .png</file>
+        <file>resources/framesequence/Strawberry/112 .png</file>
+        <file>resources/framesequence/Strawberry/113 .png</file>
+        <file>resources/framesequence/Strawberry/114 .png</file>
+        <file>resources/framesequence/Strawberry/115 .png</file>
+        <file>resources/framesequence/Strawberry/116 .png</file>
+        <file>resources/framesequence/Strawberry/117 .png</file>
+        <file>resources/framesequence/Strawberry/118 .png</file>
+        <file>resources/framesequence/Strawberry/119 .png</file>
+        <file>resources/framesequence/Strawberry/12 .png</file>
+        <file>resources/framesequence/Strawberry/120 .png</file>
+        <file>resources/framesequence/Strawberry/121 .png</file>
+        <file>resources/framesequence/Strawberry/122 .png</file>
+        <file>resources/framesequence/Strawberry/123 .png</file>
+        <file>resources/framesequence/Strawberry/124 .png</file>
+        <file>resources/framesequence/Strawberry/125 .png</file>
+        <file>resources/framesequence/Strawberry/126 .png</file>
+        <file>resources/framesequence/Strawberry/127 .png</file>
+        <file>resources/framesequence/Strawberry/128 .png</file>
+        <file>resources/framesequence/Strawberry/129 .png</file>
+        <file>resources/framesequence/Strawberry/13 .png</file>
+        <file>resources/framesequence/Strawberry/130 .png</file>
+        <file>resources/framesequence/Strawberry/131 .png</file>
+        <file>resources/framesequence/Strawberry/132 .png</file>
+        <file>resources/framesequence/Strawberry/133 .png</file>
+        <file>resources/framesequence/Strawberry/134 .png</file>
+        <file>resources/framesequence/Strawberry/135 .png</file>
+        <file>resources/framesequence/Strawberry/136 .png</file>
+        <file>resources/framesequence/Strawberry/137 .png</file>
+        <file>resources/framesequence/Strawberry/138 .png</file>
+        <file>resources/framesequence/Strawberry/139 .png</file>
+        <file>resources/framesequence/Strawberry/14 .png</file>
+        <file>resources/framesequence/Strawberry/140 .png</file>
+        <file>resources/framesequence/Strawberry/141 .png</file>
+        <file>resources/framesequence/Strawberry/142 .png</file>
+        <file>resources/framesequence/Strawberry/143 .png</file>
+        <file>resources/framesequence/Strawberry/144 .png</file>
+        <file>resources/framesequence/Strawberry/145 .png</file>
+        <file>resources/framesequence/Strawberry/146 .png</file>
+        <file>resources/framesequence/Strawberry/147 .png</file>
+        <file>resources/framesequence/Strawberry/148 .png</file>
+        <file>resources/framesequence/Strawberry/149 .png</file>
+        <file>resources/framesequence/Strawberry/15 .png</file>
+        <file>resources/framesequence/Strawberry/16 .png</file>
+        <file>resources/framesequence/Strawberry/17 .png</file>
+        <file>resources/framesequence/Strawberry/18 .png</file>
+        <file>resources/framesequence/Strawberry/19 .png</file>
+        <file>resources/framesequence/Strawberry/2 .png</file>
+        <file>resources/framesequence/Strawberry/20 .png</file>
+        <file>resources/framesequence/Strawberry/21 .png</file>
+        <file>resources/framesequence/Strawberry/22 .png</file>
+        <file>resources/framesequence/Strawberry/23 .png</file>
+        <file>resources/framesequence/Strawberry/24 .png</file>
+        <file>resources/framesequence/Strawberry/25 .png</file>
+        <file>resources/framesequence/Strawberry/26 .png</file>
+        <file>resources/framesequence/Strawberry/27 .png</file>
+        <file>resources/framesequence/Strawberry/28 .png</file>
+        <file>resources/framesequence/Strawberry/29 .png</file>
+        <file>resources/framesequence/Strawberry/3 .png</file>
+        <file>resources/framesequence/Strawberry/30 .png</file>
+        <file>resources/framesequence/Strawberry/31 .png</file>
+        <file>resources/framesequence/Strawberry/32 .png</file>
+        <file>resources/framesequence/Strawberry/33 .png</file>
+        <file>resources/framesequence/Strawberry/34 .png</file>
+        <file>resources/framesequence/Strawberry/35 .png</file>
+        <file>resources/framesequence/Strawberry/36 .png</file>
+        <file>resources/framesequence/Strawberry/37 .png</file>
+        <file>resources/framesequence/Strawberry/38 .png</file>
+        <file>resources/framesequence/Strawberry/39 .png</file>
+        <file>resources/framesequence/Strawberry/4 .png</file>
+        <file>resources/framesequence/Strawberry/40 .png</file>
+        <file>resources/framesequence/Strawberry/41 .png</file>
+        <file>resources/framesequence/Strawberry/42 .png</file>
+        <file>resources/framesequence/Strawberry/43 .png</file>
+        <file>resources/framesequence/Strawberry/44 .png</file>
+        <file>resources/framesequence/Strawberry/45 .png</file>
+        <file>resources/framesequence/Strawberry/46 .png</file>
+        <file>resources/framesequence/Strawberry/47 .png</file>
+        <file>resources/framesequence/Strawberry/48 .png</file>
+        <file>resources/framesequence/Strawberry/49 .png</file>
+        <file>resources/framesequence/Strawberry/5 .png</file>
+        <file>resources/framesequence/Strawberry/50 .png</file>
+        <file>resources/framesequence/Strawberry/51 .png</file>
+        <file>resources/framesequence/Strawberry/52 .png</file>
+        <file>resources/framesequence/Strawberry/53 .png</file>
+        <file>resources/framesequence/Strawberry/54 .png</file>
+        <file>resources/framesequence/Strawberry/55 .png</file>
+        <file>resources/framesequence/Strawberry/56 .png</file>
+        <file>resources/framesequence/Strawberry/57 .png</file>
+        <file>resources/framesequence/Strawberry/58 .png</file>
+        <file>resources/framesequence/Strawberry/59 .png</file>
+        <file>resources/framesequence/Strawberry/6 .png</file>
+        <file>resources/framesequence/Strawberry/60 .png</file>
+        <file>resources/framesequence/Strawberry/61 .png</file>
+        <file>resources/framesequence/Strawberry/62 .png</file>
+        <file>resources/framesequence/Strawberry/63 .png</file>
+        <file>resources/framesequence/Strawberry/64 .png</file>
+        <file>resources/framesequence/Strawberry/65 .png</file>
+        <file>resources/framesequence/Strawberry/66 .png</file>
+        <file>resources/framesequence/Strawberry/67 .png</file>
+        <file>resources/framesequence/Strawberry/68 .png</file>
+        <file>resources/framesequence/Strawberry/69 .png</file>
+        <file>resources/framesequence/Strawberry/7 .png</file>
+        <file>resources/framesequence/Strawberry/70 .png</file>
+        <file>resources/framesequence/Strawberry/71 .png</file>
+        <file>resources/framesequence/Strawberry/72 .png</file>
+        <file>resources/framesequence/Strawberry/73 .png</file>
+        <file>resources/framesequence/Strawberry/74 .png</file>
+        <file>resources/framesequence/Strawberry/75 .png</file>
+        <file>resources/framesequence/Strawberry/76 .png</file>
+        <file>resources/framesequence/Strawberry/77 .png</file>
+        <file>resources/framesequence/Strawberry/78 .png</file>
+        <file>resources/framesequence/Strawberry/79 .png</file>
+        <file>resources/framesequence/Strawberry/8 .png</file>
+        <file>resources/framesequence/Strawberry/80 .png</file>
+        <file>resources/framesequence/Strawberry/81 .png</file>
+        <file>resources/framesequence/Strawberry/82 .png</file>
+        <file>resources/framesequence/Strawberry/83 .png</file>
+        <file>resources/framesequence/Strawberry/84 .png</file>
+        <file>resources/framesequence/Strawberry/85 .png</file>
+        <file>resources/framesequence/Strawberry/86 .png</file>
+        <file>resources/framesequence/Strawberry/87 .png</file>
+        <file>resources/framesequence/Strawberry/88 .png</file>
+        <file>resources/framesequence/Strawberry/89 .png</file>
+        <file>resources/framesequence/Strawberry/9 .png</file>
+        <file>resources/framesequence/Strawberry/90 .png</file>
+        <file>resources/framesequence/Strawberry/91 .png</file>
+        <file>resources/framesequence/Strawberry/92 .png</file>
+        <file>resources/framesequence/Strawberry/93 .png</file>
+        <file>resources/framesequence/Strawberry/94 .png</file>
+        <file>resources/framesequence/Strawberry/95 .png</file>
+        <file>resources/framesequence/Strawberry/96 .png</file>
+        <file>resources/framesequence/Strawberry/97 .png</file>
+        <file>resources/framesequence/Strawberry/98 .png</file>
+        <file>resources/framesequence/Strawberry/99 .png</file>
+        <file>resources/framesequence/Spary/0 .png</file>
+        <file>resources/framesequence/Spary/1 .png</file>
+        <file>resources/framesequence/Spary/2 .png</file>
+        <file>resources/framesequence/Spary/3 .png</file>
+        <file>resources/framesequence/Spary/4 .png</file>
+        <file>resources/framesequence/Spary/5 .png</file>
+        <file>resources/framesequence/Spary/6 .png</file>
+        <file>resources/framesequence/Spary/7 .png</file>
+        <file>resources/framesequence/Spary/8 .png</file>
+        <file>resources/framesequence/Spary/9 .png</file>
+        <file>resources/framesequence/Spary/10 .png</file>
+        <file>resources/framesequence/Spary/11 .png</file>
+        <file>resources/framesequence/Spary/12 .png</file>
+        <file>resources/framesequence/Spary/13 .png</file>
+        <file>resources/framesequence/Spary/14 .png</file>
+        <file>resources/framesequence/Spary/15 .png</file>
+        <file>resources/framesequence/Spary/16 .png</file>
+        <file>resources/framesequence/Spary/17 .png</file>
+        <file>resources/framesequence/Spary/18 .png</file>
+        <file>resources/framesequence/Spary/19 .png</file>
+        <file>resources/framesequence/Spary/20 .png</file>
+        <file>resources/framesequence/Spary/21 .png</file>
+        <file>resources/framesequence/Spary/22 .png</file>
+        <file>resources/framesequence/Spary/23 .png</file>
+        <file>resources/framesequence/Spary/24 .png</file>
+        <file>resources/motorImagery/fertilize.png</file>
+        <file>resources/motorImagery/water.png</file>
+        <file>resources/planeMask.png</file>
+        <file>resources/start/btn.png</file>
+        <file>resources/start/btnHover.png</file>
+        <file>resources/start/btnmask.png</file>
+        <file>resources/start/table.png</file>
+        <file>resources/start/title.png</file>
+        <file>resources/framesequence/Lemon/0 .png</file>
+        <file>resources/framesequence/Lemon/1 .png</file>
+        <file>resources/framesequence/Lemon/10 .png</file>
+        <file>resources/framesequence/Lemon/100 .png</file>
+        <file>resources/framesequence/Lemon/101 .png</file>
+        <file>resources/framesequence/Lemon/102 .png</file>
+        <file>resources/framesequence/Lemon/103 .png</file>
+        <file>resources/framesequence/Lemon/104 .png</file>
+        <file>resources/framesequence/Lemon/105 .png</file>
+        <file>resources/framesequence/Lemon/106 .png</file>
+        <file>resources/framesequence/Lemon/107 .png</file>
+        <file>resources/framesequence/Lemon/108 .png</file>
+        <file>resources/framesequence/Lemon/109 .png</file>
+        <file>resources/framesequence/Lemon/11 .png</file>
+        <file>resources/framesequence/Lemon/110 .png</file>
+        <file>resources/framesequence/Lemon/111 .png</file>
+        <file>resources/framesequence/Lemon/112 .png</file>
+        <file>resources/framesequence/Lemon/113 .png</file>
+        <file>resources/framesequence/Lemon/114 .png</file>
+        <file>resources/framesequence/Lemon/115 .png</file>
+        <file>resources/framesequence/Lemon/116 .png</file>
+        <file>resources/framesequence/Lemon/117 .png</file>
+        <file>resources/framesequence/Lemon/118 .png</file>
+        <file>resources/framesequence/Lemon/119 .png</file>
+        <file>resources/framesequence/Lemon/12 .png</file>
+        <file>resources/framesequence/Lemon/120 .png</file>
+        <file>resources/framesequence/Lemon/121 .png</file>
+        <file>resources/framesequence/Lemon/122 .png</file>
+        <file>resources/framesequence/Lemon/123 .png</file>
+        <file>resources/framesequence/Lemon/124 .png</file>
+        <file>resources/framesequence/Lemon/125 .png</file>
+        <file>resources/framesequence/Lemon/126 .png</file>
+        <file>resources/framesequence/Lemon/127 .png</file>
+        <file>resources/framesequence/Lemon/128 .png</file>
+        <file>resources/framesequence/Lemon/129 .png</file>
+        <file>resources/framesequence/Lemon/13 .png</file>
+        <file>resources/framesequence/Lemon/130 .png</file>
+        <file>resources/framesequence/Lemon/131 .png</file>
+        <file>resources/framesequence/Lemon/132 .png</file>
+        <file>resources/framesequence/Lemon/133 .png</file>
+        <file>resources/framesequence/Lemon/134 .png</file>
+        <file>resources/framesequence/Lemon/135 .png</file>
+        <file>resources/framesequence/Lemon/136 .png</file>
+        <file>resources/framesequence/Lemon/137 .png</file>
+        <file>resources/framesequence/Lemon/138 .png</file>
+        <file>resources/framesequence/Lemon/139 .png</file>
+        <file>resources/framesequence/Lemon/14 .png</file>
+        <file>resources/framesequence/Lemon/140 .png</file>
+        <file>resources/framesequence/Lemon/141 .png</file>
+        <file>resources/framesequence/Lemon/142 .png</file>
+        <file>resources/framesequence/Lemon/143 .png</file>
+        <file>resources/framesequence/Lemon/144 .png</file>
+        <file>resources/framesequence/Lemon/145 .png</file>
+        <file>resources/framesequence/Lemon/146 .png</file>
+        <file>resources/framesequence/Lemon/147 .png</file>
+        <file>resources/framesequence/Lemon/148 .png</file>
+        <file>resources/framesequence/Lemon/149 .png</file>
+        <file>resources/framesequence/Lemon/15 .png</file>
+        <file>resources/framesequence/Lemon/16 .png</file>
+        <file>resources/framesequence/Lemon/17 .png</file>
+        <file>resources/framesequence/Lemon/18 .png</file>
+        <file>resources/framesequence/Lemon/19 .png</file>
+        <file>resources/framesequence/Lemon/2 .png</file>
+        <file>resources/framesequence/Lemon/20 .png</file>
+        <file>resources/framesequence/Lemon/21 .png</file>
+        <file>resources/framesequence/Lemon/22 .png</file>
+        <file>resources/framesequence/Lemon/23 .png</file>
+        <file>resources/framesequence/Lemon/24 .png</file>
+        <file>resources/framesequence/Lemon/25 .png</file>
+        <file>resources/framesequence/Lemon/26 .png</file>
+        <file>resources/framesequence/Lemon/27 .png</file>
+        <file>resources/framesequence/Lemon/28 .png</file>
+        <file>resources/framesequence/Lemon/29 .png</file>
+        <file>resources/framesequence/Lemon/3 .png</file>
+        <file>resources/framesequence/Lemon/30 .png</file>
+        <file>resources/framesequence/Lemon/31 .png</file>
+        <file>resources/framesequence/Lemon/32 .png</file>
+        <file>resources/framesequence/Lemon/33 .png</file>
+        <file>resources/framesequence/Lemon/34 .png</file>
+        <file>resources/framesequence/Lemon/35 .png</file>
+        <file>resources/framesequence/Lemon/36 .png</file>
+        <file>resources/framesequence/Lemon/37 .png</file>
+        <file>resources/framesequence/Lemon/38 .png</file>
+        <file>resources/framesequence/Lemon/39 .png</file>
+        <file>resources/framesequence/Lemon/4 .png</file>
+        <file>resources/framesequence/Lemon/40 .png</file>
+        <file>resources/framesequence/Lemon/41 .png</file>
+        <file>resources/framesequence/Lemon/42 .png</file>
+        <file>resources/framesequence/Lemon/43 .png</file>
+        <file>resources/framesequence/Lemon/44 .png</file>
+        <file>resources/framesequence/Lemon/45 .png</file>
+        <file>resources/framesequence/Lemon/46 .png</file>
+        <file>resources/framesequence/Lemon/47 .png</file>
+        <file>resources/framesequence/Lemon/48 .png</file>
+        <file>resources/framesequence/Lemon/49 .png</file>
+        <file>resources/framesequence/Lemon/5 .png</file>
+        <file>resources/framesequence/Lemon/50 .png</file>
+        <file>resources/framesequence/Lemon/51 .png</file>
+        <file>resources/framesequence/Lemon/52 .png</file>
+        <file>resources/framesequence/Lemon/53 .png</file>
+        <file>resources/framesequence/Lemon/54 .png</file>
+        <file>resources/framesequence/Lemon/55 .png</file>
+        <file>resources/framesequence/Lemon/56 .png</file>
+        <file>resources/framesequence/Lemon/57 .png</file>
+        <file>resources/framesequence/Lemon/58 .png</file>
+        <file>resources/framesequence/Lemon/59 .png</file>
+        <file>resources/framesequence/Lemon/6 .png</file>
+        <file>resources/framesequence/Lemon/60 .png</file>
+        <file>resources/framesequence/Lemon/61 .png</file>
+        <file>resources/framesequence/Lemon/62 .png</file>
+        <file>resources/framesequence/Lemon/63 .png</file>
+        <file>resources/framesequence/Lemon/64 .png</file>
+        <file>resources/framesequence/Lemon/65 .png</file>
+        <file>resources/framesequence/Lemon/66 .png</file>
+        <file>resources/framesequence/Lemon/67 .png</file>
+        <file>resources/framesequence/Lemon/68 .png</file>
+        <file>resources/framesequence/Lemon/69 .png</file>
+        <file>resources/framesequence/Lemon/7 .png</file>
+        <file>resources/framesequence/Lemon/70 .png</file>
+        <file>resources/framesequence/Lemon/71 .png</file>
+        <file>resources/framesequence/Lemon/72 .png</file>
+        <file>resources/framesequence/Lemon/73 .png</file>
+        <file>resources/framesequence/Lemon/74 .png</file>
+        <file>resources/framesequence/Lemon/75 .png</file>
+        <file>resources/framesequence/Lemon/76 .png</file>
+        <file>resources/framesequence/Lemon/77 .png</file>
+        <file>resources/framesequence/Lemon/78 .png</file>
+        <file>resources/framesequence/Lemon/79 .png</file>
+        <file>resources/framesequence/Lemon/8 .png</file>
+        <file>resources/framesequence/Lemon/80 .png</file>
+        <file>resources/framesequence/Lemon/81 .png</file>
+        <file>resources/framesequence/Lemon/82 .png</file>
+        <file>resources/framesequence/Lemon/83 .png</file>
+        <file>resources/framesequence/Lemon/84 .png</file>
+        <file>resources/framesequence/Lemon/85 .png</file>
+        <file>resources/framesequence/Lemon/86 .png</file>
+        <file>resources/framesequence/Lemon/87 .png</file>
+        <file>resources/framesequence/Lemon/88 .png</file>
+        <file>resources/framesequence/Lemon/89 .png</file>
+        <file>resources/framesequence/Lemon/9 .png</file>
+        <file>resources/framesequence/Lemon/90 .png</file>
+        <file>resources/framesequence/Lemon/91 .png</file>
+        <file>resources/framesequence/Lemon/92 .png</file>
+        <file>resources/framesequence/Lemon/93 .png</file>
+        <file>resources/framesequence/Lemon/94 .png</file>
+        <file>resources/framesequence/Lemon/95 .png</file>
+        <file>resources/framesequence/Lemon/96 .png</file>
+        <file>resources/framesequence/Lemon/97 .png</file>
+        <file>resources/framesequence/Lemon/98 .png</file>
+        <file>resources/framesequence/Lemon/99 .png</file>
+        <file>resources/plant/2/Lemon.png</file>
+        <file>resources/start/back.png</file>
+        <file>resources/start/lock.png</file>
+        <file>resources/start/paraBg.png</file>
+        <file>resources/motorImagery/left.png</file>
+        <file>resources/motorImagery/right.png</file>
+        <file>resources/framesequence/Watering/0.png</file>
+        <file>resources/framesequence/Watering/1.png</file>
+        <file>resources/framesequence/Watering/10.png</file>
+        <file>resources/framesequence/Watering/11.png</file>
+        <file>resources/framesequence/Watering/12.png</file>
+        <file>resources/framesequence/Watering/13.png</file>
+        <file>resources/framesequence/Watering/14.png</file>
+        <file>resources/framesequence/Watering/15.png</file>
+        <file>resources/framesequence/Watering/16.png</file>
+        <file>resources/framesequence/Watering/17.png</file>
+        <file>resources/framesequence/Watering/18.png</file>
+        <file>resources/framesequence/Watering/19.png</file>
+        <file>resources/framesequence/Watering/2.png</file>
+        <file>resources/framesequence/Watering/20.png</file>
+        <file>resources/framesequence/Watering/21.png</file>
+        <file>resources/framesequence/Watering/22.png</file>
+        <file>resources/framesequence/Watering/23.png</file>
+        <file>resources/framesequence/Watering/24.png</file>
+        <file>resources/framesequence/Watering/25.png</file>
+        <file>resources/framesequence/Watering/26.png</file>
+        <file>resources/framesequence/Watering/27.png</file>
+        <file>resources/framesequence/Watering/28.png</file>
+        <file>resources/framesequence/Watering/29.png</file>
+        <file>resources/framesequence/Watering/3.png</file>
+        <file>resources/framesequence/Watering/30.png</file>
+        <file>resources/framesequence/Watering/31.png</file>
+        <file>resources/framesequence/Watering/32.png</file>
+        <file>resources/framesequence/Watering/33.png</file>
+        <file>resources/framesequence/Watering/34.png</file>
+        <file>resources/framesequence/Watering/35.png</file>
+        <file>resources/framesequence/Watering/36.png</file>
+        <file>resources/framesequence/Watering/37.png</file>
+        <file>resources/framesequence/Watering/38.png</file>
+        <file>resources/framesequence/Watering/39.png</file>
+        <file>resources/framesequence/Watering/4.png</file>
+        <file>resources/framesequence/Watering/40.png</file>
+        <file>resources/framesequence/Watering/41.png</file>
+        <file>resources/framesequence/Watering/42.png</file>
+        <file>resources/framesequence/Watering/5.png</file>
+        <file>resources/framesequence/Watering/6.png</file>
+        <file>resources/framesequence/Watering/7.png</file>
+        <file>resources/framesequence/Watering/8.png</file>
+        <file>resources/framesequence/Watering/9.png</file>
+        <file>resources/plant/1/Lemon.png</file>
+        <file>resources/framesequence/Spary/25 .png</file>
+        <file>resources/framesequence/Spary/26 .png</file>
+        <file>resources/framesequence/Spary/27 .png</file>
+        <file>resources/framesequence/Spary/28 .png</file>
+        <file>resources/framesequence/Spary/29 .png</file>
+        <file>resources/framesequence/Spary/30 .png</file>
+        <file>resources/framesequence/Spary/31 .png</file>
+        <file>resources/framesequence/Spary/32 .png</file>
+        <file>resources/framesequence/Spary/33 .png</file>
+        <file>resources/framesequence/Spary/34 .png</file>
+        <file>resources/framesequence/Spary/35 .png</file>
+        <file>resources/framesequence/Spary/36 .png</file>
+        <file>resources/framesequence/Spary/37 .png</file>
+        <file>resources/framesequence/Spary/38 .png</file>
+        <file>resources/framesequence/Spary/39 .png</file>
+        <file>resources/framesequence/Spary/40 .png</file>
+        <file>resources/framesequence/Spary/41 .png</file>
+        <file>resources/framesequence/Spary/42 .png</file>
+        <file>resources/framesequence/Spary/43 .png</file>
+        <file>resources/framesequence/Spary/44 .png</file>
+        <file>resources/framesequence/Spary/45 .png</file>
+        <file>resources/framesequence/Spary/46 .png</file>
+        <file>resources/framesequence/Spary/47 .png</file>
+        <file>resources/framesequence/Spary/48 .png</file>
+        <file>resources/framesequence/Spary/49 .png</file>
+        <file>resources/finished.png</file>
+        <file>resources/plant/worm.png</file>
+        <file>resources/detail/bg.png</file>
+        <file>resources/detail/bgLight.png</file>
+        <file>resources/detail/btn.png</file>
+        <file>resources/detail/result.png</file>
+    </qresource>
+</RCC>

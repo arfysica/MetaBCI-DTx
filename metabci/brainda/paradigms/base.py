@@ -264,7 +264,8 @@ class BaseParadigm(metaclass=ABCMeta):
                                 epochs, caches)
 
                         # FIXME: is this resample reasonable?
-                        if self.srate:
+                        if (self.srate) and (self.srate != raw.info["sfreq"]):
+                            # zhou si jie 
                             # as MNE suggested, decimate after extract epochs
                             # low-pass raw object in raw_hook to prevent aliasing problem
                             epochs = epochs.resample(self.srate)
